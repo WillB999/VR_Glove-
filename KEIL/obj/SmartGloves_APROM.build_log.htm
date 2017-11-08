@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Willie Baker, BioWorld Mech, LIC=D1E59-4XDD6-UX3UB-KI23B-5HIEK-FK8B3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Essential  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      NULink\Nu_Link.dll V2.02
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+C:\workspace\nuvonTon\Bioworld\Cyberon_NuOne_630_with MotorCntl_2.1\KEIL\SmartGloves.uvproj
+Project File Date:  10/13/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'SmartGloves'
+compiling main.c...
+..\main.c(215): warning:  #1215-D: #warning directive: REMOVE THIS CODE AFTER SHIPPING THE 1ST 30 PIECES
+  #warning   REMOVE THIS CODE AFTER SHIPPING THE 1ST 30 PIECES
+..\main.c(352): warning:  #550-D: variable "music_playing"  was set but never used
+    static BOOL music_playing = FALSE;
+..\main.c(353): warning:  #550-D: variable "phone_offhook"  was set but never used
+    static BOOL phone_offhook = FALSE;
+..\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=21284 RO-data=6916 RW-data=84 ZI-data=11940  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin ".\obj\SmartGloves_APROM.axf" --output ".\obj\SmartGloves_APROM.bin"
+After Build - User command #2: fromelf --text -c ".\obj\SmartGloves_APROM.axf" --output ".\obj\SmartGloves_APROM.txt"
+".\obj\SmartGloves_APROM.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

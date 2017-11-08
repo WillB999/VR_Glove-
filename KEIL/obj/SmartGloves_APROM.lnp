@@ -1,0 +1,32 @@
+--cpu Cortex-M0
+".\obj\system_isd9100.o"
+".\obj\startup_isd9100.o"
+".\obj\main.o"
+".\obj\interrupthandler.o"
+".\obj\waverecord.o"
+".\obj\overlapram.o"
+".\obj\vr.o"
+".\obj\adc.o"
+".\obj\biq.o"
+".\obj\clk.o"
+".\obj\dpwm.o"
+".\obj\fmc.o"
+".\obj\gpio.o"
+".\obj\pdma.o"
+".\obj\retarget.o"
+".\obj\spi.o"
+".\obj\sys.o"
+".\obj\uart.o"
+"C:\Nuvoton ISD9100 SDS\V5.02.001\SampleCode\VR Projects\Cyberon_NuOne_630.1\6.3.0_Release\libCSpotterSDK_16k24d_ISD9xxC_arm-cm0.lib"
+".\obj\timer.o"
+".\obj\spiflash.o"
+".\obj\audiorom.o"
+".\obj\micspk.o"
+".\obj\pdmactrl.o"
+".\obj\appcallback.o"
+".\obj\playspinuone.o"
+"C:\Nuvoton ISD9100 SDS\V5.02.001\Library\Audio\arm\NuOneEx_Keil.lib"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_ISD9100.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\SmartGloves_APROM.map" -o .\obj\SmartGloves_APROM.axf

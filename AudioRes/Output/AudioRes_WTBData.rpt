@@ -1,0 +1,49 @@
+
+	==================================
+	[Instrument Information Report]
+	==================================
+
+	------------------------------------------------------------------
+	Instrument<0> Information:
+	Unote #0: WB_000_GrandPiano_E5_M#__#.wax
+	Used Size:10516 byte	 Append Size:1 byte
+	Start Addr:000000	 Attack Len:9176 byte
+	Loop  Addr:0023D8	 Loop   Len:1340 byte
+	End   Addr:002913	 Total  Len:10516 byte
+
+	Unote #1: WB_000_GrandPiano_Db6_M#__#.wax
+	Used Size:7588 byte	 Append Size:1 byte
+	Start Addr:002914	 Attack Len:6194 byte
+	Loop  Addr:004146	 Loop   Len:1394 byte
+	End   Addr:0046B7	 Total  Len:7588 byte
+
+	Unote #2: WB_000_GrandPiano_C7_M#__#.wax
+	Used Size:7345 byte	 Append Size:1 byte
+	Start Addr:0046B8	 Attack Len:5976 byte
+	Loop  Addr:005E10	 Loop   Len:1369 byte
+	End   Addr:006368	 Total  Len:7345 byte
+
+	Instrument<0> HQ Used Total Size = 25452 bytes
+
+	===========================
+	[Drum Information Report] 
+	===========================
+
+	==============================
+	[Used Wav File Informtion]
+	==============================
+
+	<1>Wav File:C:\Users\swchen0\AppData\Local\Temp\WB_000_GrandPiano_E5_M#__#.wax
+		Used Size:10516 byte	 Append Size:1 byte
+		The Number of Be Used:1
+
+	<2>Wav File:C:\Users\swchen0\AppData\Local\Temp\WB_000_GrandPiano_Db6_M#__#.wax
+		Used Size:7588 byte	 Append Size:1 byte
+		The Number of Be Used:1
+
+	<3>Wav File:C:\Users\swchen0\AppData\Local\Temp\WB_000_GrandPiano_C7_M#__#.wax
+		Used Size:7345 byte	 Append Size:1 byte
+		The Number of Be Used:1
+
+	------------------------------------------------------------------
+	Wav Used Total Size = 25452 bytes

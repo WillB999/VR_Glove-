@@ -1,0 +1,11 @@
+MIDDLE_C = C4
+
+;-----------Ins List----------
+
+INS0: 
+	DEFADSR <A=0.00, D=2.20, S=0.00, R=0.40>
+	DEFROOT "WB_000_GrandPiano_E5_M"<UNOTE=E4, CENT=-9, LPITCH=G1, HPITCH=G#4> 
+	DEFROOT "WB_000_GrandPiano_Db6_M"<UNOTE=C#5, CENT=0, LPITCH=A4, HPITCH=G#5> 
+	DEFROOT "WB_000_GrandPiano_C7_M"<UNOTE=C6, CENT=-4, LPITCH=A5, HPITCH=F8> 
+
+;-----------Drum List----------

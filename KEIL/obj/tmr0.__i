@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I . -I ..\ -I "C:\Nuvoton ISD9100 SDS\V5.02.001\Library\CMSIS\Include" -I "C:\Nuvoton ISD9100 SDS\V5.02.001\Library\Device\Nuvoton\ISD9100\Include" -I "C:\Nuvoton ISD9100 SDS\V5.02.001\Library\StdDriver\inc" -I "C:\Nuvoton ISD9100 SDS\V5.02.001\Library\Storage\inc" -I "C:\Nuvoton ISD9100 SDS\V5.02.001\Library\Framework\inc" -I "C:\Nuvoton ISD9100 SDS\V5.02.001\Library\Audio\inc"
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DDEBUG_ENABLE_SEMIHOS -D__ISD9100__
+-o .\obj\tmr0.o --omf_browse .\obj\tmr0.crf --depend .\obj\tmr0.d "..\TMR0.c"

@@ -1,0 +1,28 @@
+                         Project -- Build Report
+
+Project Path : C:\Nuvoton ISD9100 SDS\V5.02.001\SampleCode\test\Cyberon516_NuOne\AudioRes\AudioRes.wba
+Built time : 2016/04/27 PM 04:06
+===============================================================================
+
+-------------------------------------------------------------------------------
+  Instruments/Events defined in audio files, by file
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+  Event(s) defined in audio files, by Event
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+  Instrument(s) defined in audio files, by Instrument
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+  Drum(s) defined in audio files, by Drum
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+  Audio files/equations defined in source files
+-------------------------------------------------------------------------------
+In C:\Nuvoton ISD9100 SDS\V5.02.001\SampleCode\test\Cyberon516_NuOne\AudioRes\WAVTable_Middle.idt :
+--> Audio Files:
+    C:\Nuvoton ISD9100 SDS\V5.02.001\AudioRes\Instrument\WB_000_GrandPiano_C7_M.WAX
+    C:\Nuvoton ISD9100 SDS\V5.02.001\AudioRes\Instrument\WB_000_GrandPiano_Db6_M.WAX
+    C:\Nuvoton ISD9100 SDS\V5.02.001\AudioRes\Instrument\WB_000_GrandPiano_E5_M.WAX
+
+
